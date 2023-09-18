@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+int a;
+printf("enter name");
+scanf("%d",&a);
+if(a>0){
+printf("postive");
+}
+else if(a<0){
+printf("negative");
+}
+else{
+printf("zero");
+}
+return 0;
+}
